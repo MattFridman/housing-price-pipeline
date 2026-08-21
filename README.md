@@ -15,7 +15,7 @@ For comparison, Linear Regression achieved :
 - R² ≈ 0.58.
 
 ## 4. Visual
-
+![Predicted vs Actual — Random Forest](images/predicted_vs_actual_rf.png)
 
 ## 5. Project structure
 ```
@@ -60,7 +60,7 @@ python main.py
 ```
 
 ## 7. Key findings / limitations
-
+![Residual Plot — Random Forest](images/residual_plot_rf.png)
 
 California Housing's target values were artificially capped at the time of data collection (~$500,000); any home worth more than this was recorded at exactly the cap. Rows matching the cap value were removed prior to training, but homes near the cap still remain. As a result, the model shows a systematic tendency to underpredict high-value homes. This is visible in both the predicted-vs-actual and residual plots above, where points increasingly fall below the ideal line as price increases. 
 
