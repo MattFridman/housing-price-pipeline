@@ -24,7 +24,7 @@ housing-price-pipeline/
 │   └── raw/                    # cached raw dataset (auto-generated on first run)
 ├── images/
 │   ├── predicted_vs_actual_rf.png
-│   └── residual_plot.png
+│   └── residual_plot_rf.png
 ├── notebooks/
 │   └── eda.ipynb               # exploratory analysis
 ├── src/
