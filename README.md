@@ -35,7 +35,7 @@ housing-price-pipeline/
 │   └── evaluate.py             # diagnostic plots (predicted vs actual, residuals)
 ├── tests/
 │   └── test_preprocessing.py
-├── .gitignore
+├── LICENSE
 ├── main.py
 ├── README.md
 └── requirements.txt
