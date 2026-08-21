@@ -30,7 +30,7 @@ housing-price-pipeline/
 ├── src/
 │   ├── config.py               # centralized parameters (paths, split ratio, seed)
 │   ├── data_loader.py          # loads/caches the raw dataset
-│   └── preprocessing.py        # feature engineering, cleaning, split / scale
+│   ├── preprocessing.py        # feature engineering, cleaning, split / scale
 │   ├── train.py                # model training and evaluation metrics
 │   └── evaluate.py             # diagnostic plots (predicted vs actual, residuals)
 ├── tests/
