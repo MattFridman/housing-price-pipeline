@@ -36,8 +36,8 @@ housing-price-pipeline/
 ├── tests/
 │   └── test_preprocessing.py
 ├── LICENSE
-├── main.py
 ├── README.md
+├── main.py
 └── requirements.txt
 ```
 
