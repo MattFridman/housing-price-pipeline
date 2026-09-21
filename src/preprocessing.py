@@ -13,7 +13,7 @@ from src.config import TARGET_COL, CAP_THRESHOLD, TEST_SIZE, RANDOM_STATE
 
 def add_derived_features(df):
     """
-    Add engineered features to the housing DataFrame.
+    Add features to the housing DataFrame.
     
     The California Housing dataset includes information describing the
     average number of bedrooms and separately, the average number of 
